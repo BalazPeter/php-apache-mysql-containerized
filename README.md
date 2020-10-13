@@ -1,6 +1,3 @@
-﻿# Zadanie 1 - Docker
-***Vypracoval: Jakub Blaško  
-Študijný program: Inteligentné systémy***
 
 ### Stručné znenie zadania
 Pre každú službu webovej aplikácie by malo platiť:
