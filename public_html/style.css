@@ -1,0 +1,65 @@
+html, body{
+	height: 100%;
+	font-family: Segoe UI;
+}
+
+body{
+	margin: 0;
+	background: linear-gradient(45deg, darkblue, cyan);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.container{
+	background-color: rgba(255, 255, 255, 0.4);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.button{
+	padding: 10px;
+}
+
+.button:hover{
+	border-radius: 20px 20px 20px 20px;
+	transform: scale(1.1);
+}
+
+.table{
+	width: 70%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.table th, .table td{
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.table caption{
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.table th{
+	background-color: #55608f;
+	color: white;
+}
+
+.table tr:hover{
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+}
+
+#input{
+	border-radius: 15px 15px 15px 15px;
+}
+
+#green{
+	border-radius: 5px 5px 5px 5px;
+	background-color: lightgreen;
+	text-shadow: 2px 2px white;
+}
+
+#

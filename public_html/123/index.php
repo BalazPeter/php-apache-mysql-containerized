@@ -14,11 +14,10 @@
 <?php
 $host = 'mysql';
 $user = 'root';
-$pass = 'rootpassword';
+$pass = '123';
 $conn = new mysqli($host, $user, $pass);
 
 if ($conn->connect_error) {
-	printf("<meta http-equiv=\"Refresh\" content=\"0; url=123/index.php\"/>");
     printf("<tr style=\"background-color: rgba(255, 0, 0, 0.5);\"><td>Spojenie s databázou</td><td>Chyba</td></tr>");
     die("Chyba spojenia: " . $conn->connect_error);
 } else {
