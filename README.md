@@ -1,20 +1,19 @@
 
-### Stručné znenie zadania
+
 Pre každú službu webovej aplikácie by malo platiť:
 -   počúva na svojom porte,
 -   beží vo vlastnom Docker kontajneri,
 -   dokáže komunikovať s ostatnými službami ktoré potrebuje.
 
-Súčasťou odovzdania by mal byť:
+
 -   skript pre štart nazvaný  `start-app.sh`
 -   skript pre koniec nazvaný  `end-app.sh`
 -   ak je to potrebné, pridajte aj skript pre zostavenie aplikácie nazvaný  `prepare-app.sh`
 -   Súbor s dokumentáciou  `README.md`  
 
-### Vypracovanie 
 Vytvorenie webovej aplikácie pozostávajúcej zo servera apache, databázového systému MySQL a webovej reprezentácie za použitia jazyka PHP. Cez webovú aplikáciu je možné prehľadávať, vytvárať, meniť či mazať záznamy v databáze.
 
-Zložka `zadanie` obsahuje:
+Zložka obsahuje:
  - `php-apache-mysql-containerized` - v tejto zložke sa nachádzajú súbory inštrukcií pre automatické stiahnutie a vytvorenie jednotlivých obrazov
 		 - `apache` - Dockerfile pre špecifikáciu služby apache
 		 - `php ` - Dockerfile pre špecifikáciu služby php 
